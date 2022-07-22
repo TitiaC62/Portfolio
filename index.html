@@ -36,9 +36,7 @@
                     <li class="nav-item active">
                         <a  class="nav-link" href="#Laetitia"> Qui suis-je ?</a>
                     </li>
-                    <li class="nav-item">
-                        <a  class="nav-link" href="#expertise"> Mes expériences professionnelles </a>
-                    </li>
+                   
                     <li class="nav-item ">
                         <a  class="nav-link" href="#portfolio"> Portfolio web</a>
                     </li>
@@ -87,7 +85,7 @@
 
                 <p> Laetitia, 31 ans.
 
-                    Titulaire d'un Master 2 PGRDS : prévention et gestion des risques en droit social, j'ai acquis de l'expérience en tant que juriste.<br>
+                    Titulaire d'un Master 2 Prévention et Gestion des Risques en Droit Social (PGRDS), j'ai acquis de l'expérience en tant que juriste.<br>
                     J'ai également mon diplôme du BAFA et de nombreuses expériences en ce sens. <br>
                     Cependant, l'univers informatique m'a toujours plu. <br>
                     C'est pourquoi j'ai décider de me lancer dans le développement web et web mobile. Je me suis donc inscrite dans une formation à distance avec l'organisme STUDI. <br>
@@ -242,12 +240,7 @@
                  
                
             </div>
-
-             
-               
-           
-              
-             
+     
             </div>
 
 
@@ -372,6 +365,8 @@
                             </div>
                           </div>
                         </section>
+
+                        <!--Contact-->
                     
                         <section id="contact"  class="py-5 bg-light">
                           <div class="container">
@@ -379,36 +374,66 @@
                             <h3 class="fs-3 fs-md-2">Allons en discuter autour d'un café !</h3>
                             <p>Bon certes, je ne bois pas de café, mais je serai heureuse de vous écouter et de discuter pendant que vous buvez le votre !</p>
                     
-                            <div class="row mt-5">
-                              <div class="col-12 col-md-5">
-                                <img src="./médias/laptop-gbeb4c50be_640.jpg" alt="Image d'une tasse de café" width="100%">
-                              </div>
-                              <div class="col-12 offset-md-1 col-md-6">
-                                <div class="bg-secondary h-100 w-100 py-5">
+
+                            <!--Formulaire de contact non actif-->
+                           <div class="row  mt-5 align-items-center">
+                             <div class="col-6 col-md-5 ml-5 ">
+                                <form method="post" action=""> 
+                                    <p>
+                                        <label for="Nom">Votre Nom</label><br>
+                                        <input type="text" name="Nom" id="Nom">
+                                    </p><br>
+
+                                    <p>
+                                        <label for="Prénom">Votre Prénom</label><br>
+                                        <input type="text" name="Nom" id="Prénom">
+                                    </p><br>
+
+                                    <p>
+                                        <label for="mail ">Votre mail</label><br>
+                                        <input type="email" name="mail" id="mail">
+                                    </p><br>
+
+                                    <form method="post" action="">
+                                        <p>
+                                            <label for="commentaire">Votre message</label><br>
+                                            <textarea name="commentaire" id="commentaire" placeholder="Votre message ici" rows="10" cols="40"></textarea>
+                                        </p>
+                                     </form>
+                                </form>        
+                             </div>
+                             
+                                <div class="col-6 col-md-5 image d-block ">
+                                     <img src="./médias/laptop-gbeb4c50be_640.jpg" alt="Image d'une tasse de café" width="90%">
                                 </div>
-                              </div>
+                             
                             </div>
-                          </div>
+                            
+                            <p>Le formulaire n'est pas encore actif, je ne pourrais donc recevoir votre message via celui-ci. Cependant si vous souhaitez me joindre, mes coordonées sont sur mon CV, ou si ce-dessous sur les réseaux</p>
                         </section>
-                    
+                 
                       </main>
+
+
                       <footer class="border-top">
                         <div class="container py-5">
                           <div class="row">
-                            <div class="col-12 col-md-4">
-                              <div class="bg-secondary py-5"></div>
+                            <div class="col-12 text-center">
+                                <p class="fst-italic text-black-50">Création par LC développement 2022 <i class="bi bi-copyright"></i></p>
                             </div>
-                            <div class="col-12 col-md-4">
-                              <div class="bg-secondary py-5"></div>
-                            </div>
-                            <div class="col-12 col-md-4 text-md-end">
+                         </div>
+                         
+                          <div class="row">
+                            <div class="col-12  text-center">
                               <ul class="list-inline">
-                              <li class="list-inline-item"><i class="bi bi-linkedin"></i></li>
-                              <li class="list-inline-item"><i class="bi bi-instagram"></i></li>
-                              <li class="list-inline-item"><i class="bi bi-twitter"></i></li>
+                              <li class="list-inline-item"></li><a href="https://www.linkedin.com/in/laetitia-c-369b1294/"><i class="bi bi-linkedin"></i></a></li>
+                              <li class="list-inline-item"><a href="https://www.instagram.com/travels.express_62/"><i class="bi bi-instagram"></i></a></li>
+                              <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100003525831697"><i class="bi bi-facebook"></i></a></li>
                               </ul>
                             </div>
+                         
                           </div>
+                            
                         </div>
                         <!-- Script js -->
                         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
