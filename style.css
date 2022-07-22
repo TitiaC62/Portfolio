@@ -1,0 +1,9 @@
+@media screen and (max-width: 360px) {
+    img {
+        display: none;
+    }
+
+    .image{
+        display: none;
+    }
+}
