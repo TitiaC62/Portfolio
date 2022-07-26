@@ -1,3 +1,33 @@
+.mail{
+    text-decoration: none;
+    
+}
+
+
+    @keyframes titre {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+}
+
+
+.d-flex {
+    display: flex!important;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
 @media screen and (max-width: 360px) {
     img {
         display: none;
