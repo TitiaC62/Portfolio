@@ -3,6 +3,24 @@
     
 }
 
+.juriste, .animatrice, .developpement, .sport, .stage{
+   
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 1.85rem 3rem;
+    border-radius: 10rem;
+    transform: scale(1);
+    transition: transform 400ms;
+}
+
+.juriste:hover,
+.animatrice:hover,
+ .developpement:hover, 
+.sport:hover,
+ .stage:hover {
+    transform: scale(1.5);
+}
+
 
 .card{
     border: none;
