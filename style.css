@@ -4,6 +4,10 @@
 }
 
 
+.card{
+    border: none;
+    margin: 10px;
+}
 
 .container-card{
     display: flex;
@@ -47,6 +51,18 @@
     flex-wrap: nowrap;
     align-items: stretch;
     justify-content: space-evenly;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.competences2{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
 }
 
 
